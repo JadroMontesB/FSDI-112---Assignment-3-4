@@ -10,7 +10,7 @@
             <h5 class="card-title">Post #{{ post.id  }}</h5>
             <h6 class="card-subtitle mb-2 text-muted">{{ post.tittle  }}</h6>
             <p class="card-text">{{ post.text|truncatechars:512 }}</p>
-            <a href="{% url 'post_detail' post.id  %}" class="btn btn-primary">Continue Reading...</a>
+            <a href="{% url 'post_detail' post.id  %}" class="btn btn-primary">Continue Reading....</a>
         </div>
     </div>
 {% endfor %}
